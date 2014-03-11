@@ -39,6 +39,22 @@ $heading1TextShadow: 0 1px 0 #ccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b
   @include radial-gradient( rgba(28,30,32,1), $cnaColor );
 }
 
+.keyword {
+  font-weight:400  !important;
+}
+
+.capteur {
+  @extend .keyword;
+  color:#2bb6e4;
+}
+.controle {
+  @extend .keyword;
+  color:orange;
+}
+.mouvement {
+  @extend .keyword;
+  color:#4a6cd4;
+}
 
 
 // Theme template ------------------------------

@@ -11,7 +11,7 @@
   font-weight: normal;
   font-style: normal; }
 
-.keyword, .capteur, .controle, .mouvement, .operator, .apparence, .data {
+.keyword, .capteur, .controle, .mouvement, .operator, .apparence, .data, .sound {
   font-weight: 400  !important; }
 
 .capteur {
@@ -31,6 +31,9 @@
 
 .data {
   color: #ee7d16; }
+
+.sound {
+  color: #bb42c3; }
 
 /*********************************************
  * GLOBAL STYLES

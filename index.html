@@ -48,7 +48,7 @@
 				<section>
 					<h2>Ce que l'on va tenter de faire</h2>
 					<p>
-					      <iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/19102876/?autostart=false" frameborder="0" allowfullscreen></iframe>
+					      <iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/19319845/?autostart=false" frameborder="0" allowfullscreen></iframe>
 					</p>
 
 					<aside class="notes">
@@ -128,6 +128,12 @@ Pour déplacer la grenouille, il faut savoir <span class="controle">si</span> un
 
 					</section>
 					<section>
+						<h2>Répeter tout le temps</h2>
+						<p>Pour répérer tout le temp, on utilise </p>
+						<img src="images/infiniteLoop.png"/>
+						<p>Celui-ci se trouve dans les <span class="controle">Contrôles</span>
+					</section>
+					<section>
 						<h2>Si .... alors</h2>
 						<p>Dans scratch, pour effectuer une action lorsqu'une condition est vérifié, on utilise ce composant :</p>
 						<img src="images/ifThen.png"/>
@@ -139,16 +145,24 @@ Pour déplacer la grenouille, il faut savoir <span class="controle">si</span> un
 						<img src="images/pressKey.png"/>
 						<p>Celui-ci se trouve dans les <span class="capteur">Capteurs</span>
 					</section><section>
-						<h2>Déplacer un objet</h2>
-						<p>Déplacer un objet revient à modifier son abscisse (x) ou son ordonnée dans la fenêtre :</p>
+						<h2>Déplacer un grenouille</h2>
+						<p>Déplacer la grenouille revient à modifier son abscisse (x) ou son ordonnée dans la fenêtre :</p>
 						<img src="images/move.png"/>
 						<p>Ces composants se trouvent dans les <span class="mouvement">Mouvements</span>
+					</section>
+					<section>
+						<h2>Déplacer à un endroit précis</h2>
+						<p>Pour déplacer la grenouille à un endroit en particulier</p>
+						<img src="images/goToXY.png"/>
+						<p>Celui-ci se trouve dans les <span class="mouvement">Mouvements</span>
 					</section>
 					<section>
 						<h2>Demo</h2>
 						      <iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/19229069/?autostart=false" frameborder="0" allowfullscreen></iframe>
 
 					</section>
+					
+
 					<section>
 			  	<h2>Proposition</h2>
 					<img src="images/step1.png"/>
@@ -163,6 +177,7 @@ La grenouille gagne lorsqu'elle arrive au dessus de l'écran</p>
 <p>Il faut donc vérifier si son ordonnée est supérieur à la ligne supérieure.</p>
 
 					</section>
+					
 					<section>
 						<h2>Si .... alors</h2>
 						<p>Dans scratch, pour effectuer une action lorsqu'une condition est vérifié, on utilise ce composant :</p>
@@ -203,6 +218,7 @@ La grenouille gagne lorsqu'elle arrive au dessus de l'écran</p>
 									<iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/19102876/?autostart=false" frameborder="0" allowfullscreen></iframe>
 						</p>
 					</section>
+			
 					<section>
 					<h2>Proposition</h2>
 					<img src="images/step2.png"/>
@@ -214,40 +230,100 @@ La grenouille gagne lorsqu'elle arrive au dessus de l'écran</p>
 				<section>
 					<section>
 						<h2>Ajoutons des obstacles</h2>
-						<p>
-TODO</p>
+						<p>Nous allons ajouter une voiture</p>
+						<p>Celle-ci va attendre un peu et partir de tout à gauche et avancer jusqu'a droite.
 
 					</section>
+
 					<section>
-						<h2>Scratch 1</h2>
-						<p>Blabla</p>
+						<h2>Afficher ou cacher la voiture</h2>
+						<p>Afin de cacher ou de montrer la voiture, on peut utiliser ces composants </p>
+						<img src="images/show.png"/>
+						<img src="images/hide.png"/>
+						<p>Ces composants se trouvent dans les <span class="apparence">Apparences</span>
+					</section>
+
+					<section>
+						<h2>Attendre</h2>
+						<p>Afin d'ajouter une pause de 1 ou plusieurs secondes, nous utilisons ce composant :</p>
+						<img src="images/attendre.png"/>
+						<p>Ces composants se trouvent dans les <span class="controle">Contrôles</span>
 					</section>
 				<section>
-						<h2>Scratch 2</h2>
-						<p>Blabla</p>
-					</section><section>
-						<h2>Scratch 3</h2>
-						<p>Blabla</p>
+						<h2>Un nombre aléatoire</h2>
+						<p>Pour générer un nombre entre 1 ou 5 secondes, ce composant sera utilisé </p>
+						<img src="images/aleatoire.png"/>
+						<p>Ces composants se trouvent dans les <span class="operator">Opérateurs</span>
 					</section>
+					<section>
+						<h2>Jouer un son</h2>
+						<p>Pour jouer un son :</p>
+						<img src="images/playSound.png"/>
+						<p>Ces composants se trouvent dans les <span class="sound">Sons</span>
+					</section>
+					<section>
+						<h2>Demo</h2>
+						<p>
+								      <iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/19260196/?autostart=false" frameborder="0" allowfullscreen></iframe>
+    
+						</p>
+					</section>
+
+					<section>
+						<h2>Voiture touchée?</h2>
+						<p>Pour savoir si la grenouille touche un voiture, on utilise </p>
+						<img src="images/collision.png"/>
+						<p>Ces composants se trouvent dans les <span class="capteur">Capteurs</span>
+					</section>
+					<section>
+						<h2>Fin du jeu</h2>
+						<p>Pour arrêter le jeu un fois qu'on a perdu </p>
+						<img src="images/stop.png"/>
+						<p>Ce composant se trouve dans les <span class="controle">Contrôles</span>
+					</section>
+
+					<section>
+						<h2>Demo</h2>
+						      <iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/19319845/?autostart=false" frameborder="0" allowfullscreen></iframe>
+    
+					</section>
+
 				</section>
 
 				<section>
 					<section>
 						<h2>Plusieurs tentatives, s'il vous plait</h2>
 						<p>
-TODO</p>
+On va maintenant ajouter la notion de vie, la grenouille aura 3 vies.</p>
+<p>Il faut donc modifier le traitement quand elle se fait écraser 
+<ul>
+<li>Réduire une vie si la grenouille</li>
+<li>Si le nombre de vie = 0, alors le jeu se fini</li>
+</ul></p>
 
 					</section>
 					<section>
-						<h2>Scratch 1</h2>
-						<p>Blabla</p>
+						<h2>Amélioration graphique / sonore</h2>
+	
+					<p>
+					Afin de rendre le jeu plus réaliste, nous allons changer l'image représentant la grenouille quand elle se fait écrasée. Nous allons également ajouter un coassement
+
+</p>
+
+					</section>
+					<section>
+						<h2>Changement d'image</h2>
+						<p>Pour changer la représentation de la grenouille, nous allons changer son costume :</p>
+						<img src="images/changeCostume.png"/>
+						<p>Ces composants se trouvent dans les <span class="apparence">Apparences</span>
 					</section>
 				<section>
-						<h2>Scratch 2</h2>
-						<p>Blabla</p>
-					</section><section>
-						<h2>Scratch 3</h2>
-						<p>Blabla</p>
+						<h2>Demo</h2>
+           <iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/19320357/?autostart=false" frameborder="0" allowfullscreen></iframe>
+    		</section>
+					<section>
+					<h2>Proposition</h2>
+					<img src="images/step4.png"/>
 					</section>
 				</section>
 
@@ -255,20 +331,23 @@ TODO</p>
 					<section>
 						<h2>C'est trop facile ! Plus vite !</h2>
 						<p>
-TODO</p>
+Le jeu est presque fini ! Nous allons maintenant ajouter la notion de niveau, plus on avance dans les niveau, plus la voiture avancera vite !</p>
 
 					</section>
 					<section>
-						<h2>Scratch 1</h2>
-						<p>Blabla</p>
+						<h2>Demo</h2>
+           <iframe allowtransparency="true" width="485" height="402" src="http://scratch.mit.edu/projects/embed/19321325/?autostart=false" frameborder="0" allowfullscreen></iframe>
+    
+    
 					</section>
+					
 				<section>
-						<h2>Scratch 2</h2>
-						<p>Blabla</p>
-					</section><section>
-						<h2>Scratch 3</h2>
-						<p>Blabla</p>
-					</section>
+					<h2>Proposition Grenouille</h2>
+					<img src="images/step5frogger.png"/>
+				</section>
+				<section>
+					<h2>Proposition Voiture</h2>
+					<img src="images/step5car.png"/>
 				</section>
 
 
